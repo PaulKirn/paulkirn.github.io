@@ -1,0 +1,318 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+}
+
+.screen {
+  width: 375px;
+  height: 812px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0F2F7;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.statusbar {
+  width: 375px;
+  height: 44px;
+  background-color: #FFFFFF;
+}
+
+.time {
+  margin: 17px 0 0 33px;
+  position: relative;
+}
+
+.connections {
+  margin: 15px 0 0 228px;
+  position: absolute;
+}
+
+.search {
+  width: 375px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  box-shadow: 0 0.5px rgba(0,0,0,30%);
+}
+
+.input_search {
+    position: relative;
+}
+
+input[type=text] {
+width: 297px;
+height: 30px;
+margin: 0 auto;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+color: #A3A3A3;
+border-radius: 5px;
+border: none;
+background: #F0F2F7;
+padding: 0 31px;
+margin: 7px 0 0 8px;
+outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #A3A3A3;
+}
+
+.input_loop {
+    position:absolute;
+    width: 16px;
+    height: 16px;
+    left: 14px;
+    top: 14px;
+    fill: #A3A3A3;
+}
+
+.input_photo {
+    position:absolute;
+    width: 18px;
+    height: 16px;
+    right: 14px;
+    top: 14px;
+    fill: #A3A3A3;
+    cursor: pointer;
+}
+
+.buttons {
+  width: 375px;
+  height: 638px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.buttons::-webkit-scrollbar {width:0px;}
+
+.nike {
+  width: 359px;
+  height: 70px;
+  background-color: #FF4603;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.nikelogo {
+  width: 77px;
+  height: 40.22px;
+  margin: 15px 0 0 38px;
+}
+
+.puma {
+  width: 359px;
+  height: 70px;
+  background-color: #CD092F;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.pumalogo {
+  width: 76.58px;
+  height: 38.17px;
+  margin: 16px 0 0 38px;
+}
+
+.vans {
+  width: 359px;
+  height: 70px;
+  background-color: #D51920;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.vanslogo {
+  width: 77px;
+  height: 26px;
+  margin: 22px 0 0 38px;
+}
+
+.nb {
+  width: 359px;
+  height: 70px;
+  background-color: #E21836;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.nblogo {
+  width: 76.58px;
+  height: 54.1px;
+  margin: 8px 0 0 38px;
+}
+
+.fila {
+  width: 359px;
+  height: 70px;
+  background-color: #03234C;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.filalogo {
+  width: 77px;
+  height: 25.36px;
+  margin: 22px 0 0 38px;
+}
+
+.asics {
+  width: 359px;
+  height: 70px;
+  background-color: #003263;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.asicslogo {
+  width: 77px;
+  height: 25px;
+  margin: 22px 0 0 38px;
+}
+
+.adidas {
+  width: 359px;
+  height: 70px;
+  background-color: #005D93;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.adidaslogo {
+  width: 77px;
+  height: 52.04px;
+  margin: 9px 0 0 38px;
+}
+
+.lacoste {
+  width: 359px;
+  height: 70px;
+  background-color: #00542D;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.lacostelogo {
+  width: 77px;
+  height: 41.07px;
+  margin: 14px 0 0 38px;
+}
+
+.converse {
+  width: 359px;
+  height: 70px;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.converselogo {
+  width: 77px;
+  height: 48px;
+  margin: 11px 0 0 38px;
+}
+
+.reebok {
+  width: 359px;
+  height: 70px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 4px rgba(0,0,0,25%);
+  cursor: pointer;
+}
+
+.reeboklogo {
+  width: 77px;
+  height: 48.04px;
+  margin: 11px 0 0 38px;
+}
+
+.panel {
+  width: 375px;
+  height: 83px;
+  background-color: #FFFFFF;
+  box-shadow: 0 -0.5px rgba(0,0,0,30%);
+}
+
+.compilation {
+  width: 51px;
+  height: 41px;
+  margin: 11px 0 0 12px;
+  cursor: pointer;
+}
+
+.catalog {
+  width: 50px;
+  height: 41px;
+  margin: 11px 0 0 20px;
+  cursor: pointer;
+}
+
+.basket {
+  width: 50px;
+  height: 41px;
+  margin: 11px 0 0 20px;
+  cursor: pointer;
+}
+
+.favorites {
+  width: 55px;
+  height: 41px;
+  margin: 11px 0 0 20px;
+  cursor: pointer;
+}
+
+.profile {
+  width: 53px;
+  height: 41px;
+  margin: 11px 0 0 20px;
+  cursor: pointer;
+}
+
+.home {
+  width: 135px;
+  height: 5px;
+  margin: 12px 0 0 120px;
+}
